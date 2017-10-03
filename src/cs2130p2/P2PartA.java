@@ -37,8 +37,11 @@ public class P2PartA {
 
     private static char NOTlogic(char p) {
        // Logical NOT function
-    
-    
+    	char f = 'F';
+    	if (p == 'F') {
+    		f = 'T';
+    	}
+    	return f;
     }
 
 } // end class
