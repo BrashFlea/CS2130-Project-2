@@ -20,15 +20,19 @@ public class P2PartA {
     private static char ANDlogic(char p, char q) {
        // Logical AND function
        char f = 'F';
-       if(p == 'T' && q == 'T')
-          f = 'T';
+       if(p == 'T' && q == 'T') {
+           f = 'T';           
+       }
        return f;
     }
 
     private static char ORlogic(char p, char q) {
        // Logical OR function
-    
-    
+        char f = 'F';
+        if(p == 'T' || q == 'T') {
+            f = 'T';            
+        }
+        return f;
     }
 
     private static char NOTlogic(char p) {
