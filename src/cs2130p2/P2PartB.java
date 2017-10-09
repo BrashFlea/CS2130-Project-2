@@ -38,7 +38,6 @@ public class P2PartB {
         System.out.println(1 +" | "+ 1 +" | "+ 1 +" | " + 0 +" | " + result);
         result = LCircuit(1,1,1,1);
         System.out.println(1 +" | "+ 1 +" | "+ 1 +" | " + 1 +" | " + result);
- 
     }
 
     private static int LCircuit(int x, int y, int z, int w) {
